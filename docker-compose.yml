@@ -1,0 +1,11 @@
+services:
+  alpha-tracker:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      # Persist database and cookies across restarts
+      - ./data:/app/data
+    environment:
+      - DB_PATH=/app/data/alpha_tracker.db
