@@ -1,7 +1,7 @@
 # 🔍 Alpha Follow Tracker
 
 A free Discord bot that monitors crypto smart accounts on X (Twitter) and alerts you
-whenever they follow someone new — just like Orbital Follow.
+whenever they follow someone new.
 
 ## How It Works
 
